@@ -48,6 +48,18 @@
 # `-c` executes <line> as "command"
 ```
 ---
+#### Execute code from remote github repository
+```bash
+-> npx <githubname>/<githubrepo>#<branch>
+```
+---
+#### Execute code from gist
+```bash
+-> npx https://gist.github.com/lgmkr/3af70ada30fad4ce4f0e59d33591d994
+npx: installed 1 in 3.672s
+Hello world!
+```
+---
 #### Run commands with different Node versions
 ```bash
 -> npx -p node@8.2.1 -- node index.js
