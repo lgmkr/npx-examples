@@ -42,8 +42,17 @@
 # `v` is alias for `view` or `show` or `info`
 
 -> npx create-react-app@next app-name
-```
 
+-> npx -p eslint@next -p eslint-config-google -c "eslint ./"
+# `-p` or `--path` flag specifies packages to install and add to the running $PATH
+# `-c` executes <line> as "command"
+```
+---
+#### Run commands with different Node versions
+```bash
+-> npx -p node@8.2.1 -- node index.js
+# executes index.js with node version 8.2.1
+```
 ---
 #### Appendix
 ```bash
